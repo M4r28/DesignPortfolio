@@ -1,0 +1,62 @@
+.zoomableImage {
+  max-width: 80vw;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+.zoomable-image-container {
+  max-width: 80vw;
+  height: auto;
+  margin: 0 auto;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* padding: 2rem; */
+
+}
+
+.zoomable-image-container .zoomable-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+
+
+}
+
+/* .image-wrapper {
+  width: 100%;
+  height: auto;
+
+  position: relative;
+  cursor: grabbing;
+
+}
+
+.image-wrapper:active {
+  cursor: grabbing;
+  
+} */
+
+.zoom-controls {
+  display: flex;
+  justify-content: start;
+
+}
+
+.zoom-controls button {
+  margin-right: 1rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+.zoom-controls button:hover {
+  background-color: black;
+  opacity: 70%;
+}

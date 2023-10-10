@@ -1,0 +1,168 @@
+.empathize {
+  .header {
+    font-size: var(--h2-l);
+
+    /* line-height: 0.9; */
+    padding: 0;
+    margin: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .goal {
+    /* padding-top: 3rem; */
+    padding-bottom: 6rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding: 0;
+    font-size: 1rem;
+    margin-bottom: 6rem;
+    /* background-color: rgb(177, 226, 43); */
+  }
+
+  .section h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: var(--h3-l);
+    line-height: 1;
+    /* background-color: blue; */
+  }
+
+  .column1 h3 {
+    text-decoration: underline var(--accent-color);
+  }
+
+  .columns {
+
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--column-gap-l);
+
+  }
+
+  .space {
+    margin-top: 4rem;
+  }
+
+  .columns section {
+    max-width: 60ch;
+  }
+
+  .section p {
+    font-size: var(--body-l);
+
+    /* background-color: brown; */
+  }
+
+  .section a {
+    color: inherit;
+  }
+
+  .section a:hover {
+    color: var(--accent-color);
+
+  }
+
+  .section a:visited {
+    /* opacity: 0.5; */
+    color: var(--accent-color-dark);
+  }
+
+  .section a:hover {
+    color: var(--accent-color);
+
+  }
+
+
+  .list {
+    font-size: var(--body-l);
+    list-style-position: outside;
+    list-style-type: decimal-leading-zero;
+
+    /* background-color: brown; */
+
+  }
+
+  .section h5 {
+    font-size: calc(var(--body-l) + 0.25rem);
+    margin: 0;
+  }
+
+  .imageContainer {
+    max-width: 80vw;
+    margin: 0 auto;
+  }
+
+  .invisible {
+    color: white;
+    opacity: 0%;
+  }
+}
+
+
+
+
+
+
+
+.empathize {
+  margin: var(--space-section) 0;
+}
+
+
+
+@media (max-width: 991px) {
+  #discover section {
+    max-width: 100%;
+  }
+
+  .header {
+    font-size: 3rem;
+    background-color: coral;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+  .empathize {
+
+    .header {
+      font-size: 4rem !important;
+      background-color: rgb(103, 79, 187);
+      margin-left: 0.25rem !important;
+      margin-right: 0.25rem !important;
+    }
+
+    .section h3 {
+      font-size: 2.5rem !important;
+      background-color: pink !important;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+
+    .section p {
+      font-size: var(--body-s);
+      background-color: yellow;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+
+    .goal {
+      font-size: 0.75rem !important;
+      background-color: aquamarine !important;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+      margin-bottom: 3rem;
+    }
+
+    .invisible {
+      display: none;
+    }
+
+  }
+}

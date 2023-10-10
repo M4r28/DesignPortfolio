@@ -1,0 +1,139 @@
+.home {
+  height: 100%;
+
+  .hero p {
+    margin: 0;
+  }
+
+  .firstProject p {
+    margin: 0;
+  }
+
+  .header {
+    width: 100%;
+    height: auto;
+    text-align: start;
+    font-size: var(--header-xl);
+    padding: 1rem;
+    z-index: 1;
+    line-height: 1;
+  }
+
+  .description {
+    width: 60ch;
+    font-size: var(--description-l);
+    padding-left: 1.5vw;
+    padding-bottom: 2rem;
+    /* background-color: rgb(232, 183, 208); */
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    /* height: calc(100vh - 2rem); */
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: inline-flex;
+    /* background-color: #d9f37c; */
+  }
+
+  .firstProject {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: hotpink; */
+  }
+
+
+  .projectsArrowContainer {
+    /* width: 100%; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: greenyellow; */
+  }
+
+  .projectsHeader {
+    padding-left: 0.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .descriptionAndProjects {
+    /* background-color: blueviolet; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    padding-bottom: 0.5rem;
+  }
+
+  .temporaryPadding {
+    padding-bottom: 2rem;
+  }
+
+}
+
+
+/* Large Screens (Desktops and Larger Laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    font-size: var(--header-l);
+    background-color: yellow;
+  }
+
+  .projectsArrowContainer {
+    padding-left: 1rem;
+  }
+}
+
+/* Medium Screens (Tablets and Small Laptops): */
+@media (min-width: 768px) and (max-width: 991px) {
+  .header {
+    font-size: var(--header-l);
+    background-color: orange;
+  }
+
+  .description {
+    font-size: var(--description-m);
+    background-color: hotpink;
+    padding: 0 var(--space-side-m);
+  }
+
+  .projectsArrowContainer {
+    padding-left: 1rem;
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  .home {
+    .header {
+      font-size: var(--header-s);
+      background-color: red;
+    }
+
+    /* .descriptionAndProjects {
+      padding: 0 0.5rem;
+      overflow: hidden;
+      background-color: purple;
+    } */
+
+    .description {
+      font-size: var(--description-s);
+      max-width: 100%;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+      background-color: cyan;
+    }
+
+    .projectsArrowContainer {
+      padding-left: 0.5rem !important;
+    }
+  }
+}

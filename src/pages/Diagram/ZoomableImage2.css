@@ -1,0 +1,37 @@
+/* ZoomableImage.css */
+
+.zoomable-image-container {
+  max-width: 80vw;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+.zoomable-image {
+  position: relative;
+  cursor: grab;
+}
+
+.zoomable-image.dragging {
+  cursor: grabbing;
+}
+
+.zoom-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

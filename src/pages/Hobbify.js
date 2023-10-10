@@ -1,0 +1,44 @@
+import Diagram from "./Diagram/Diagram"
+import "./Hobbify.css"
+import image from '../images/mockupHobbify.png'
+
+export default function Hobbify() {
+  return (
+    <div className="hobbify">
+      <div className="sectionAndSpecs">
+        <section className="sectionTop">I designed an iOS mobile app tailored to meet the unique needs of creative individuals of different skill levels that makes contacting experts easy and accessible effectively bridging a gap in the market.
+        </section>
+        <div className="projectSpecs">
+          <div className="specsColumn">
+            <span>Role</span>
+            <span>UX/UI</span>
+          </div>
+          <div className="specsColumn">
+            <span>Duration</span>
+            <span>5 Months</span>
+          </div>
+
+          <div className="specsColumn">
+            <span>Date</span>
+            <span>2023</span>
+          </div>
+        </div>
+      </div>
+
+      <img className="mockup" src={image} width="100%" height="500px" alt="Hobbify project mockups" />
+
+
+      {/* <div className="projectSpecs">
+        <button className="button">Scroll for Case Study</button>
+        <button className="button"> Watch Video Presentation</button>
+      </div> */}
+
+      <div className="specsColumn">
+
+      </div>
+
+
+      <Diagram />
+    </div>
+  )
+}

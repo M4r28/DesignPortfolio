@@ -1,0 +1,44 @@
+
+  .Aabout {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 1rem;
+      margin-left: 1.5rem;
+      margin-top: 3rem;
+    }
+    
+    .Asection {
+    width: 40ch;
+    font-size: 2rem;
+    }
+    
+    .Ah1 {
+      font-size: 5rem;
+      max-width: 40ch;
+      line-height: 1.1;
+    }
+    
+    .Alist {
+     font-size: 2rem;
+     list-style-type: none; /* Remove bullets */
+     padding: 0; /* Remove padding */
+     margin: 0; /* Remove margins */
+    }
+    
+    .Agrid-item {
+      grid-column: span 1;
+      grid-row: span 1;
+      place-content: start;
+      margin-top: 3rem;
+    }
+
+    .AlinkedinIcon {
+     /* float: right; */
+     padding-right: 1.5rem;
+    }
+
+    .Aflex-container {
+      display: flex;
+      justify-content: flex-end;
+    }

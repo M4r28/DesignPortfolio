@@ -1,0 +1,85 @@
+:root {
+  --accent-color: #C0C6CA;
+  --accent-color-dark: #898d90;
+  --text-main-color: black;
+
+  /* font-sizes header */
+  --header-xl: 11.062rem;
+  /* desktop and larger laptops */
+  --header-l: 6.875rem;
+  /* tablet and small laptops */
+  --header-m: 4.250rem;
+  /* mobile */
+  --header-s: 2.625rem;
+
+  /* h2 */
+  --h2-l: 10rem;
+
+  /* h3 */
+  --h3-l: 5rem;
+
+  /* font sizes body */
+  --body-s: 1.000rem;
+  --body-l: 1.25rem;
+
+  /* description  */
+  --description-l: 2rem;
+  --description-m: 1.625rem;
+  --description-s: 1.25rem;
+
+  /* column spacing */
+  --column-gap-l: 8rem;
+  --column-gap-s: 2rem;
+
+  /* spacing */
+  --space-side-l: 1.5rem;
+  --space-side-m: 1rem;
+  --space-side-s: 0.5rem;
+  --space-section: 10rem;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.nav {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1.5rem;
+  /* background-color: #DEEB53; */
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #e4d1d1;
+}
+
+.nav li:hover {
+
+  font-family: 'Manrope-Regular';
+}

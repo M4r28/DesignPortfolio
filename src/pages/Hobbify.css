@@ -1,0 +1,105 @@
+.hobbify {
+
+  .sectionTop {
+    font-size: var(--description-l);
+    max-width: 70%;
+    margin-left: var(--space-side-l);
+    /* background-color: aquamarine; */
+  }
+
+  .projectSpecs {
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+  .projectSpecs div:nth-child(2) {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+
+  .specsColumn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sectionAndSpecs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 1.5rem;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+  }
+
+  .mockup {
+    padding: 1.5rem;
+    border-radius: 40px;
+  }
+
+  .button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    margin-left: 1.5rem;
+  }
+}
+
+/* Large Screens (Desktops and Larger Laptops) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Medium Screens (Tablets and Small Laptops): */
+@media (min-width: 768px) and (max-width: 991px) {
+  .hobbify {
+    .sectionTop {
+      font-size: var(--description-m);
+      background-color: hotpink;
+      margin: 1rem 1rem;
+    }
+
+    .projectSpecs {
+      margin-left: 1rem;
+    }
+
+    .sectionTop {
+      font-size: var(--description-m);
+      background-color: hotpink;
+      margin-left: (--space-side-m);
+      padding: 0;
+    }
+  }
+}
+
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  .hobbify {
+    .projectSpecs div:nth-child(2) {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+
+    .projectSpecs {
+      display: flex;
+      font-size: 1.125rem;
+      margin: 1.25rem;
+      margin-left: 0.5rem;
+    }
+
+    .sectionTop {
+      font-size: var(--description-s);
+      max-width: 100% !important;
+      margin-left: var(--space-side-s);
+      background-color: blanchedalmond;
+    }
+
+    .sectionAndSpecs {
+      margin-top: 2rem;
+    }
+
+  }
+
+}
