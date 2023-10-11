@@ -42,10 +42,14 @@
 
   #prototypeAndTest section {
     max-width: 60ch;
+    min-width: 60ch;
   }
 
   .section p {
     font-size: var(--body-l);
+    word-break: keep-all;
+
+
     /* background-color: brown; */
   }
 
@@ -65,6 +69,18 @@
 
   .column2 h3 {
     text-decoration: underline #C0C6CA;
+  }
+
+  .semiBold {
+    font-family: 'Manrope-SemiBold';
+  }
+
+  .rainbowSpreadsheet {
+    margin: 0 auto;
+    min-width: 80vw;
+    max-width: 80vw;
+    height: auto;
+    aspect-ratio: 16 / 9;
   }
 }
 

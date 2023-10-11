@@ -45,6 +45,7 @@
 
   #discover section {
     max-width: 60ch;
+    min-width: 60ch;
   }
 
   .section p {
@@ -68,6 +69,10 @@
 
   .column2 h3 {
     text-decoration: underline #C0C6CA;
+  }
+
+  .semiBold {
+    font-family: 'Manrope-SemiBold';
   }
 }
 

@@ -20,30 +20,21 @@ const Empathize = () => (
           </section>
           <section className='section column2'>
             <h3>Online Survey</h3>
-            <p>Have a look at Survey &nbsp;<a href="https://docs.google.com/forms/d/122Sk_8eqiTyd1UjftXATI_iKcS5KT8geAb-vIPm-35o/edit?usp=forms_home&ths=true" target="_blank" rel="noreferrer" >Questions</a> &nbsp; and &nbsp;
+            <p>Have a look at Survey &nbsp;<a href="https://docs.google.com/forms/d/122Sk_8eqiTyd1UjftXATI_iKcS5KT8geAb-vIPm-35o/edit?usp=forms_home&ths=true" target="_blank" rel="noreferrer" >Questions</a> &nbsp;and &nbsp;
               <a href="https://docs.google.com/spreadsheets/d/1ZXyFSq6LBwAuP9GB94VmNkM2iDEp5_0IUdqIduh2jWw/edit?resourcekey#gid=1442747701" target="_blank" rel="noreferrer">Results</a>
               .</p>
             <p>
               <h5>Main Findings</h5>Users express the importance of creative hobbies in their life. Being invested in their projects they would gladly indulge in the idea of having access to expert advice. However, a big emphasis is put on proper and timely scheduling, responsiveness, reliability, and pricing.</p>
             <div className='space' />
             <h3>User <br /> Interviews</h3>
-            <p>Building on the survey findings I conducted 1 hour interviews with 3 people which gave me a great insight into their wants, needs, and behaviors related to the value proposition of the app.</p>
+            <p>Building upon survey findings, I conducted one-hour interviews with three participants. These interviews provided valuable insights into their wants, needs, and behaviors related to the app's value proposition.<br/> Following the user interviews, I delved into <span className='semiBold'>insights synthesis</span>. Through a thorough analysis of the raw data, I categorized the insights into emerging themes that captured the primary priorities of users.</p>
           </section>
         </div>
       </div>
       <div className='imageContainer'>
         <img className="" src={imageUserInterviews} width="100%" height="auto" alt="User Interviews results organized in groups: Behaviors and Attitudes, Needs and Goals, and Frustrations, and Significant Quotes" />
       </div>
-      <div className='columns'>
-        <section className='section'>
-          <h3>Affinity Map</h3>
-          <p>That analysis was then used in creating the Affinity Map highlighting three key  categories most relevant to users. </p>
-        </section>
-        <section className='invisible'>
-          <h3>Affinity Map</h3>
-          <p>That analysis was then used in creating the Affinity Map highlighting three key  categories most relevant to users. </p>
-        </section>
-      </div>
+  
       <div className='imageContainer'>
         <img className='' src={imageAffinityMap} width='100%' height='auto' alt='Affinity Map organized in three groups: Accessibility, Trust and Expertise, Convenience' />
       </div>

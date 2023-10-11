@@ -21,10 +21,8 @@ const Ideate = () => (
       <div className='columns'>
         <section className='section'>
           <h3>User Flows</h3>
-          <p>Utilizing user flows in UX enhances design clarity by visualizing the step-by-step journey of users, fostering a comprehensive understanding of their interactions. This process streamlines navigation and identifies potential bottlenecks, ultimately leading to improved user experiences and informed design decisions.</p>
         </section>
         <section className='section'>
-          {/* <h3>User Flows</h3> */}
           <p>Utilizing user flows in UX enhances design clarity by visualizing the step-by-step journey of users, fostering a comprehensive understanding of their interactions. This process streamlines navigation and identifies potential bottlenecks, ultimately leading to improved user experiences and informed design decisions.</p>
         </section>
       </div>
@@ -52,11 +50,9 @@ const Ideate = () => (
       <div className='columns'>
         <section className='section'>
           <h3>Site Map</h3>
-          <p>I have created a sitemap which I later tested further with users using Card Sort.</p>
         </section>
         <section className='section'>
-          {/* <h3>Site Map</h3> */}
-          <p>I have created a sitemap which I later tested further with users using Card Sort.</p>
+          <p>I have created an initial sitemap draft, subsequently refining it through user testing via <span className='semiBold'>Card Sort</span>. This visual representation of the information architecture and navigation helps designers and stakeholders understand the organization of content, pages, and interactions, ensuring that the user experience is logical and user-friendly.</p>
         </section>
       </div>
       <div>

@@ -18,11 +18,9 @@ const Define = () => (
     <div className='columns'>
     <section className='section'>
       <h3>User Personas</h3>
-      <p>Developing personas enables designers to empathize effectively, comprehending objectives, requirements, pain points, and motivations. Stepping into the persona's perspective empowers me to make decisions more aligned with their needs and goals.</p>
     </section> 
-    <section className='section invisible'>
-      {/* <h3>User Personas</h3> */}
-      <p>Developing personas enables designers to empathize effectively, comprehending objectives, requirements, pain points, and motivations.</p>
+    <section className='section'>
+    <p>Developing personas enables designers to empathize effectively, comprehending objectives, requirements, pain points, and motivations. Stepping into the persona's perspective empowered me to make decisions more aligned with their needs and goals.</p>
     </section> 
     </div>
 
@@ -44,10 +42,8 @@ const Define = () => (
     <div className='columns'>
     <section className='section'>
       <h3>User Journey Maps</h3>
-      <p>Employing User Journey Maps illuminates the end-to-end user experience, providing insights into touch points and emotions throughout their interaction with a product or service. This aids in identifying pain points and opportunities for optimization, resulting in more empathetic and effective design solutions.</p>
     </section>
     <section className='section'>
-      {/* <h3>User Journey Maps</h3> */}
       <p>Employing User Journey Maps illuminates the end-to-end user experience, providing insights into touch points and emotions throughout their interaction with a product or service. This aids in identifying pain points and opportunities for optimization, resulting in more empathetic and effective design solutions.</p>
     </section>
     </div>

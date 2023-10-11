@@ -9,7 +9,7 @@ const Discover = () => (
     <div className='columns'>
       <section className='section column1'>
         <h3>Context</h3>
-        <p>I began with Competitive Analysis for which I have researched advice platforms: Intro, Expert Contact, and Just Answer as well as popular applications offering courses for creative endeavors: Domestika, Udemy, and Skillshare. I transformed this research into Business Requirements Document outlining my main discoveries, detailing crucial aspects of the app's features, and establishing objectives for the app launch as well as the enlistment of experts and users.</p>
+        <p>I began with <span className='bold'>Competitive Analysis</span> for which I have researched advice platforms: Intro, Expert Contact, and Just Answer as well as popular applications offering courses for creative endeavors: Domestika, Udemy, and Skillshare. I transformed this research into <span className='semiBold'>Business Requirements Document</span> outlining my main discoveries, detailing crucial aspects of the app's features, and establishing objectives for the app launch as well as the enlistment of experts and users.</p>
       </section>
       <section className='section column2'>
         <h3>Problem Statement</h3>

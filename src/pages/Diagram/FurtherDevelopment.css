@@ -46,6 +46,7 @@
 
   #furtherDevelopment section {
     max-width: 60ch;
+    min-width: 60ch;
   }
 
   .section p {

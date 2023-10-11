@@ -2,6 +2,7 @@ import "./Home.css"
 import { ReactComponent as Icon } from '../icons/arrow.svg'
 import { Link } from 'react-router-dom';
 import image from '../images/mockupHobbify.png'
+import MobileFrame from "./MobileFrame";
 
 
 export default function Home() {
@@ -28,9 +29,11 @@ export default function Home() {
         <Link to="/hobbify">
           <div className="hobbify">
             <img className="projectMockup" src={image} width="100%" height="auto" alt="Hobbify" />
+          
             <span className="description">Hobbify</span>
           </div>
         </Link>
+        {/* <MobileFrame /> */}
         <p className="description">A Mobile App for Creative Connections, Expert Guidance, and Community Building. Creativity unleashed and creations amplified!</p>
         <div className="temporaryPadding" />
         <div className="temporaryPadding" />

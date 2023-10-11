@@ -50,6 +50,7 @@
 
   .columns section {
     max-width: 60ch;
+    min-width: 60ch;
   }
 
   .section p {
@@ -97,10 +98,10 @@
     margin: 0 auto;
   }
 
-  .invisible {
-    color: white;
-    opacity: 0%;
+  .semiBold {
+    font-family: 'Manrope-SemiBold';
   }
+
 }
 
 

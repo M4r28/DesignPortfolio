@@ -7,7 +7,7 @@ import BackToTopButton from '../BackToTopButton';
 const FurtherDevelopment = () => (
   <div className='furtherDevelopment'>
   <div id="furtherDevelopment">
-    <header className='header'>06 Further Development</header>
+    <header className='header'>06 Further<br/>Development</header>
     <p className='goal'>Goal → create an early model of a product that demonstrates its functionality and can be used for testing.</p>
     <section className='section'>
       <h3>UI Implementation</h3>

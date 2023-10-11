@@ -43,6 +43,7 @@
 
   #ideate section {
     max-width: 60ch;
+    min-width: 60ch;
   }
 
   .section p {
@@ -74,6 +75,10 @@
 
   .zoomable-image-container img {
     object-fit: contain;
+  }
+
+  .semiBold {
+    font-family: 'Manrope-SemiBold';
   }
 
 }

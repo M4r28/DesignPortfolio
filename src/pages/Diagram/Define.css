@@ -45,6 +45,7 @@
 
   #define section {
     max-width: 60ch;
+    min-width: 60ch;
     /* background-color: blueviolet; */
   }
 
