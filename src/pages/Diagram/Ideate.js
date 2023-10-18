@@ -26,7 +26,7 @@ const Ideate = () => (
           <p>Utilizing user flows in UX enhances design clarity by visualizing the step-by-step journey of users, fostering a comprehensive understanding of their interactions. This process streamlines navigation and identifies potential bottlenecks, ultimately leading to improved user experiences and informed design decisions.</p>
         </section>
       </div>
-      <Carousel showArrows={false} showStatus={false} showThumbs={false} swipeable={true} className='carousel'>
+      <Carousel showArrows={false} showStatus={false} showThumbs={false} swipeable={true} className='carousel imageBottomMargin'>
         <div>
           <img src={userStoryPhillip} alt="User Story Phillip" />
         </div>
@@ -47,7 +47,7 @@ const Ideate = () => (
         </div>
       </Carousel>
 
-      <div className='columns'>
+      <div className='columns columnMarginTop'>
         <section className='section'>
           <h3>Site Map</h3>
         </section>

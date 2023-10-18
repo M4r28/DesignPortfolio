@@ -29,7 +29,7 @@ const PrototypeAndTest = () => (
       {/* 
 tutaj wjezdza image */}
 
-      <div className='columns'>
+      <div className='columns columnMargin'>
         <section className='section'>
           <h3>Low-fidelity</h3>
         </section>
@@ -39,7 +39,7 @@ tutaj wjezdza image */}
       </div>
       <ZoomableImage src={lowFidelityWireframes} />
 
-      <div className='columns'>
+      <div className='columns columnMargin'>
         <section className='section'>
           <h3>Mid-fidelity </h3>
         </section>
@@ -49,7 +49,7 @@ tutaj wjezdza image */}
       </div>
       <ZoomableImage src={midFidelityWireframes} />
 
-      <div className='columns'>
+      <div className='columns columnMargin'>
         <section className='section'>
           <h3>High-fidelity </h3>
         </section>
@@ -65,7 +65,7 @@ tutaj wjezdza image */}
         <section><p> Tutaj wjezdza frame z prototypem</p></section>
       </div> */}
 
-      <div className='columns'>
+      <div className='columns columnMargin'>
         <section className='section column2'>
           <h3>Testing&nbsp;</h3>
           <p>Employing usability tests, particularly on a high-fidelity prototype, allows for real-world user interactions, uncovering usability issues and validating design decisions before final implementation. This iterative process enhances user satisfaction and minimizes costly post-launch revisions, ensuring a user-centric and refined end product.</p>
@@ -76,7 +76,7 @@ tutaj wjezdza image */}
         </section>
       </div>
 
-      <div className='columns'>
+      <div className='columns columnMargin'>
         <section className='section'>
           <h3>Test Objectives</h3>
           <p>
@@ -97,7 +97,7 @@ tutaj wjezdza image */}
             The test included a short briefing, task performance with Hobbify conducted on an application, and a debriefing.</p>
         </section>
       </div>
-      <div className='columns'>
+      <div className='columns columnMargin'>
         <section className='section'>
           <h3>Analysis</h3>
         </section>
@@ -107,11 +107,11 @@ tutaj wjezdza image */}
         </section>
       </div>
       <ZoomableImage src={usabilityTestAnalysis} />
-      <div className='rainbowSpreadsheet'>
+      <div className='rainbowSpreadsheet imageMarginTop'>
         <iframe title='rainbowSpreadsheet' width='100%' height='100%' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRY543q47vNCNsagym0_YSI3JM7_FgBky3P7pIjhEsCs94yEa3pkh2Rfvs9tliBFMB9tMFIDC0pmKtN/pubhtml?widget=true&amp;headers=false"></iframe>
       </div>
 
-      <div className='columns'>
+      <div className='columns columnMargin'>
         <section className='section'>
           <h3>Conclusion</h3>
           <p>In summary, user testing revealed that most participants found Hobby easy to use and appreciated its readability. They successfully performed key actions, including searching for experts, booking calls, and sending messages. However, some users raised concerns about the clarity of confirmation after booking contacts and expressed a desire for more control over contact duration. To address these issues, redesigning booking and confirmation screens is essential for a smoother and more user-centered experience.

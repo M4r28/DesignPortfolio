@@ -6,6 +6,7 @@ import Contact from "./pages/Contact"
 import Hobbify from "./pages/Hobbify"
 import { Route, Routes } from "react-router-dom"
 
+
 function App() {
   return (
     <>
@@ -17,7 +18,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/hobbify" element={<Hobbify />} />
       </Routes>
-
     </>
   )
 }

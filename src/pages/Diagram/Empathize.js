@@ -32,11 +32,11 @@ const Empathize = () => (
         </div>
       </div>
       <div className='imageContainer'>
-        <img className="" src={imageUserInterviews} width="100%" height="auto" alt="User Interviews results organized in groups: Behaviors and Attitudes, Needs and Goals, and Frustrations, and Significant Quotes" />
+        <img className="imageBottomMargin" src={imageUserInterviews} width="100%" height="auto" alt="User Interviews results organized in groups: Behaviors and Attitudes, Needs and Goals, and Frustrations, and Significant Quotes" />
       </div>
   
       <div className='imageContainer'>
-        <img className='' src={imageAffinityMap} width='100%' height='auto' alt='Affinity Map organized in three groups: Accessibility, Trust and Expertise, Convenience' />
+        <img className='' src={imageAffinityMap} width='100%' height='auto' alt='Insights Synthesis organized in three groups: Accessibility, Trust and Expertise, Convenience' />
       </div>
     </div>
   </div>

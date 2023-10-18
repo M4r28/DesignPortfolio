@@ -1,4 +1,5 @@
 .ideate {
+  margin: var(--space-section-l) 0;
 
   #ideate .header {
     font-size: var(--h2-l);
@@ -31,7 +32,7 @@
   }
 
   .columns {
-    /* background-color: aliceblue; */
+    background-color: aliceblue;
     display: flex;
     flex-direction: row;
     /* align-items: start; */
@@ -39,6 +40,7 @@
     flex-wrap: wrap;
     gap: var(--column-gap-l);
     margin-left: auto;
+    margin-bottom: 4rem;
   }
 
   #ideate section {
@@ -81,16 +83,15 @@
     font-family: 'Manrope-SemiBold';
   }
 
-}
 
-.ideate {
-  margin: var(--space-section) 0;
 }
 
 
 
-@media (max-width: 991px) {
-  #discover section {
+
+/* Medium Screens (Tablets and Small Laptops): */
+@media (min-width: 768px) and (max-width: 991px) {
+  #ideate section {
     max-width: 100%;
   }
 
@@ -98,12 +99,84 @@
     font-size: 3rem;
     background-color: coral;
   }
+
+  .columns {
+    gap: var(--column-gap-s);
+  }
 }
 
 
+/* Medium Devices (Larger Tablets and Small Laptops) */
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+  .ideate {
+    margin: var(--space-section-m) 0;
+
+    #ideate section {
+      max-width: 100%;
+    }
+
+    .header {
+      font-size: var(--h2-m) !important;
+      background-color: rgb(55, 90, 137);
+    }
+
+    .columns {
+      gap: var(--column-gap-m);
+      margin-bottom: 4rem;
+    }
+
+
+    .section h3 {
+      font-size: var(--h3-m) !important;
+      background-color: rgb(224, 90, 112) !important;
+      margin-left: var(--space-side-m) !important;
+      margin-right: var(--space-side-m) !important;
+    }
+
+    .section p {
+      font-size: var(--body-m);
+      background-color: yellow;
+      margin-left: var(--space-side-m) !important;
+      margin-right: var(--space-side-m) !important;
+    }
+
+    #ideate section {
+      max-width: 50ch;
+      min-width: 50ch;
+    }
+
+    .goal {
+      font-size: var(--goal-font-m);
+      background-color: aquamarine !important;
+      margin-left: var(--space-side-m) !important;
+      margin-right: var(--space-side-m) !important;
+      margin-bottom: var(--goal-margin-bottom-m);
+    }
+
+    .carousel .dot {
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+
+    .carousel .control-dots {
+      position: absolute;
+      bottom: -0.50rem;
+    }
+
+    .columnMarginTop {
+      margin-top: var(--column-margin-top-m);
+    }
+
+    .imageBottomMargin {
+      margin-bottom: var(--image-margin-m);
+    }
+  }
+}
+
 /* Mobile */
 @media (max-width: 767px) {
-  .discover {
+  .ideate {
+    margin: var(--space-section-s) 0;
 
     .header {
       font-size: 4rem !important;
@@ -132,6 +205,10 @@
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
       margin-bottom: 3rem;
+    }
+
+    .columns {
+      gap: var(--column-gap-s);
     }
 
 

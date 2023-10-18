@@ -14,28 +14,59 @@
 
   /* h2 */
   --h2-l: 10rem;
+  --h2-m: 8rem;
 
-  /* h3 */
+  /* h3 section header */
   --h3-l: 5rem;
+  --h3-m: 3.5rem;
+  --h3-s: 2.5rem;
 
   /* font sizes body */
   --body-s: 1.000rem;
+  --body-m: 1.125rem;
   --body-l: 1.25rem;
 
-  /* description  */
+  /* description font size  */
   --description-l: 2rem;
   --description-m: 1.625rem;
   --description-s: 1.25rem;
 
+  /* goal font-sizes */
+  --goal-font-s: 0.75rem;
+  --goal-font-m: 1rem;
+
+
   /* column spacing */
   --column-gap-l: 8rem;
+  --column-gap-m: 3.5rem;
   --column-gap-s: 2rem;
+
+  --column-margin-top-m: 5rem;
+  --column-margin-bottom-m: 4rem;
 
   /* spacing */
   --space-side-l: 1.5rem;
   --space-side-m: 1rem;
   --space-side-s: 0.5rem;
-  --space-section: 10rem;
+
+  --space-section-l: 10rem;
+  --space-section-m: 9rem;
+  --space-section-s: 4rem;
+
+  /* z wystawaczkami */
+  --goal-margin-top-l: 4rem;
+  --goal-margin-top-m: 2.75rem;
+  --goal-margin-top-s: 1rem;
+
+  /* goal to content */
+  --goal-margin-bottom-l: 8rem;
+  --goal-margin-bottom-m: 6rem;
+  --goal-margin-bottom-s: 4rem;
+
+  /* images */
+  --image-margin-m: 2.5rem;
+
+
 }
 
 
@@ -46,40 +77,4 @@
 body {
   margin: 0;
   height: 100%;
-}
-
-.nav {
-  color: black;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  gap: 2rem;
-  padding: 0 1.5rem;
-  /* background-color: #DEEB53; */
-}
-
-.nav ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.nav a {
-  color: inherit;
-  text-decoration: none;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  padding: .25rem;
-}
-
-.nav li.active {
-  background-color: #e4d1d1;
-}
-
-.nav li:hover {
-
-  font-family: 'Manrope-Regular';
 }

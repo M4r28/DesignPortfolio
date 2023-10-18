@@ -1,44 +1,35 @@
-import React, { useState, useEffect } from 'react';
-import './BackToTopButton.css'; // Import your CSS file
+import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import './Navbar.css';
 
-const BackToTopButton = () => {
-  const [isVisible, setIsVisible] = useState(false);
+export default function Navbar() {
+  return (
+    <nav className="nav">
+      <Link to="/">
+      Home
+      </Link>
+      <ul>
+        {/* <CustomLink to="/work">Work</CustomLink> */}
+        <CustomLink to="/about">About</CustomLink>
+        {/* <CustomLink to="/contact">Contact</CustomLink> */}
+        {/* <CustomLink to="javascript:void(0)" target="_blank" rel="noopener noreferrer" onClick={() => window.location = 'mailto:marta.marta.k@gmail.com'}>
+        Contact
+        </CustomLink> */}
+        <a href="mailto:marta.marta.k@gmail.com?subject=Fresh from martakolodziejczak.com&body=Hi," target="_blank" rel="noopener noreferrer">Contact</a>
+      </ul>
+    </nav>
+  )
+}
 
-  // Function to scroll to the top of the page
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
-
-  // Function to show or hide the button based on scroll position
-  const handleScroll = () => {
-    if (window.scrollY > 100) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
-
-  useEffect(() => {
-    // Add scroll event listener when the component mounts
-    window.addEventListener('scroll', handleScroll);
-
-    // Clean up the event listener when the component unmounts
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+function CustomLink({ to, children, ...props }) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
 
   return (
-    <button
-      className={`backToTopButton ${isVisible ? 'visible' : ''}`}
-      onClick={scrollToTop}
-    >
-      Back to Top
-    </button>
-  );
-};
+    <li className={isActive ? "active" : ""}>
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    </li>
+  )
+} 
 
-export default BackToTopButton;

@@ -1,0 +1,19 @@
+.macBookFrame {
+  margin: 0 auto;
+  /* max-width: 70%; */
+  height: auto;
+  border: none;
+  display: flex;
+  align-self: center;
+
+  width: 100vw;
+  background-color: rgb(254, 238, 134);
+}
+
+.mockup {
+  width: 55%;
+  height: 55%;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+  padding-bottom: 4rem;
+}

@@ -1,4 +1,5 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom"
+import './Navbar.css';
 
 export default function Navbar() {
   return (
@@ -30,5 +31,5 @@ function CustomLink({ to, children, ...props }) {
       </Link>
     </li>
   )
-}
+} 
 

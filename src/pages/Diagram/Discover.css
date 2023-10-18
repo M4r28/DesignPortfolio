@@ -1,4 +1,6 @@
 .discover {
+  margin: var(--space-section-l) 0;
+
   #discover .header {
     font-size: var(--h2-l);
     /* background-color: #D3FF74; */
@@ -11,7 +13,6 @@
   }
 
   .goal {
-    /* padding-top: 3rem; */
     padding-bottom: 6rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -76,27 +77,100 @@
   }
 }
 
-.discover {
-  margin: var(--space-section) 0;
+
+
+
+
+
+/* Large Screens (Desktops and Larger Laptops) */
+
+
+@media (min-width: 768px) and (max-width: 1280px) {
+
+  .discover {
+    .columns {
+      background-color: hotpink;
+      gap: var(--column-gap-m);
+
+    }
+  }
+
+}
+
+/* Medium Devices (Larger Tablets and Small Laptops) */
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+  .discover {
+    margin: var(--space-section-m) 0;
+
+    #discover section {
+      max-width: 100%;
+    }
+
+    .header {
+      font-size: var(--h2-m) !important;
+      background-color: rgb(55, 90, 137);
+    }
+
+    .columns {
+      gap: var(--column-gap-m);
+    }
+
+    .section h3 {
+      font-size: var(--h3-m) !important;
+      background-color: rgb(224, 90, 112) !important;
+      margin-left: var(--space-side-m) !important;
+      margin-right: var(--space-side-m) !important;
+    }
+
+    .section p {
+      font-size: var(--body-m);
+      background-color: yellow;
+      margin-left: var(--space-side-m) !important;
+      margin-right: var(--space-side-m) !important;
+    }
+
+    #discover section {
+      max-width: 50ch;
+      min-width: 50ch;
+    }
+
+    .goal {
+      font-size: var(--goal-font-m);
+      background-color: aquamarine !important;
+      margin-left: var(--space-side-m) !important;
+      margin-right: var(--space-side-m) !important;
+      margin-bottom: var(--goal-margin-bottom-m);
+    }
+  }
 }
 
 
+/* Small/er Screens (Tablets and some Small Laptops): */
+@media (min-width: 768px) and (max-width: 991px) {
+  .discover {
+    margin: var(--space-section-s) 0;
 
-@media (max-width: 991px) {
-  #discover section {
-    max-width: 100%;
-  }
+    #discover section {
+      max-width: 100%;
+    }
 
-  .header {
-    font-size: 3rem;
-    background-color: coral;
+    .header {
+      font-size: 3rem;
+      background-color: coral;
+    }
+
+    .columns {
+      gap: var(--column-gap-s);
+    }
   }
 }
+
 
 
 /* Mobile */
 @media (max-width: 767px) {
   .discover {
+    margin: var(--space-section-s) 0;
 
     .header {
       font-size: 4rem !important;
@@ -106,7 +180,7 @@
     }
 
     .section h3 {
-      font-size: 2.5rem !important;
+      font-size: var(--h3-s) !important;
       background-color: pink !important;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
@@ -120,11 +194,15 @@
     }
 
     .goal {
-      font-size: 0.75rem !important;
+      font-size: var(--goal-font-s) !important;
       background-color: aquamarine !important;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
       margin-bottom: 3rem;
+    }
+
+    .columns {
+      gap: var(--column-gap-s);
     }
 
 
