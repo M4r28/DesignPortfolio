@@ -146,6 +146,11 @@
       margin-right: var(--space-side-m) !important;
       margin-bottom: var(--goal-margin-bottom-m);
     }
+
+    .columnMargin {
+      margin-top: var(--column-margin-top-m);
+      margin-bottom: var(--column-margin-bottom-m);
+    }
   }
 }
 
