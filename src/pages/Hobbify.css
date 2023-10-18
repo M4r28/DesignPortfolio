@@ -33,7 +33,7 @@
   }
 
   .mockup {
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
     border-radius: 40px;
   }
 
@@ -45,6 +45,12 @@
     font-size: 1rem;
     margin-left: 1.5rem;
   }
+
+  .framesImageContainer {
+    display: flex;
+    max-width: 90vw;
+  }
+
 }
 
 /* Large Screens (Desktops and Larger Laptops) */

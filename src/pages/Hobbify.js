@@ -1,6 +1,8 @@
 import Diagram from "./Diagram/Diagram"
 import "./Hobbify.css"
-import image from '../images/mockupHobbify.png'
+import image from '../images/mockupHobbify.png';
+import h3l from '../images/h3l.png';
+import h3r from '../images/h3r.png';
 
 export default function Hobbify() {
   return (
@@ -24,10 +26,10 @@ export default function Hobbify() {
           </div>
         </div>
       </div>
-
-      <img className="mockup" src={image} width="100%" height="500px" alt="Hobbify project mockups" />
-
-
+<div className="framesImageContainer">
+      <img className="mockup" src={h3l} width="100%" height="500px" alt="Hobbify project mockups" />
+      <img className="mockup framesRight" src={h3r} width="100%" height="500px" alt="Hobbify project mockups" />
+      </div>
       {/* <div className="projectSpecs">
         <button className="button">Scroll for Case Study</button>
         <button className="button"> Watch Video Presentation</button>
