@@ -240,6 +240,13 @@
       margin-right: 0.5rem !important;
     }
 
+    .section ol {
+      font-size: var(--body-s);
+      background-color: yellow;
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+
     .goal {
       font-size: 0.75rem !important;
       background-color: aquamarine !important;
@@ -250,7 +257,14 @@
     }
 
     .columns {
-      gap: var(--column-gap-s);
+      gap: var(--column-gap-reset);
+      justify-content: start;
+
+    }
+
+    #prototypeAndTest section {
+      max-width: 100%;
+      min-width: 0ch;
     }
 
   }

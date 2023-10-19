@@ -182,6 +182,11 @@
   .discover {
     margin: var(--space-section-s) 0;
 
+    #discover section {
+      max-width: 100%;
+      min-width: 0ch;
+    }
+
     .header {
       font-size: 4rem !important;
       background-color: rgb(103, 79, 187);

@@ -247,7 +247,23 @@
     }
 
     .columns {
-      gap: var(--column-gap-s);
+      gap: var(--column-gap-reset);
+      justify-content: start;
+    }
+
+    #define section {
+      max-width: 100%;
+      min-width: 0ch;
+    }
+
+    .carousel .dot {
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+
+    .carousel .control-dots {
+      position: absolute;
+      bottom: -0.750rem;
     }
 
   }

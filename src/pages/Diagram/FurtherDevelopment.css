@@ -190,7 +190,7 @@
 
     .section p {
       font-size: var(--body-s);
-      background-color: yellow;
+      background-color: rgb(227, 227, 133);
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
     }
@@ -208,6 +208,10 @@
       gap: var(--column-gap-s);
     }
 
+    #furtherDevelopment section {
+      max-width: 100%;
+      min-width: 0ch;
+    }
 
   }
 }
