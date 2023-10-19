@@ -72,6 +72,11 @@
   .column2 h3 {
     text-decoration: underline #C0C6CA;
   }
+
+  .columnMargin {
+    margin-top: var(--column-margin-top-l);
+    margin-bottom: var(--column-margin-bottom-l);
+  }
 }
 
 

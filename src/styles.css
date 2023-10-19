@@ -41,6 +41,8 @@
   --column-gap-m: 3.5rem;
   --column-gap-s: 2rem;
 
+  --column-margin-top-l: 6rem;
+  --column-margin-bottom-l: 5rem;
   --column-margin-top-m: 5rem;
   --column-margin-bottom-m: 4rem;
 
@@ -64,6 +66,7 @@
   --goal-margin-bottom-s: 4rem;
 
   /* images */
+  --image-margin-l: 4rem;
   --image-margin-m: 2.5rem;
 
 

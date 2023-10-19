@@ -104,6 +104,10 @@
     font-family: 'Manrope-SemiBold';
   }
 
+  .imageBottomMargin {
+    margin-bottom: var(--image-margin-l);
+  }
+
 }
 
 

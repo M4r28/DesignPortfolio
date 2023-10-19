@@ -65,7 +65,7 @@
 
   .carousel .control-dots {
     position: absolute;
-    bottom: -0.90rem;
+    bottom: -0.30rem;
   }
 
   .carousel .dot {
@@ -81,6 +81,14 @@
 
   .semiBold {
     font-family: 'Manrope-SemiBold';
+  }
+
+  .columnMarginTop {
+    margin-top: var(--column-margin-top-l);
+  }
+
+  .imageBottomMargin {
+    margin-bottom: var(--image-margin-l);
   }
 
 

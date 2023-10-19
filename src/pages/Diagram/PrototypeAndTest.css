@@ -85,6 +85,15 @@
     height: auto;
     aspect-ratio: 16 / 9;
   }
+
+  .columnMargin {
+    margin-top: var(--column-margin-top-l);
+    margin-bottom: var(--column-margin-bottom-l);
+  }
+
+  .imageMarginTop {
+    margin-top: var(--image-margin-l);
+  }
 }
 
 
