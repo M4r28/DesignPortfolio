@@ -6,7 +6,7 @@ import imageAffinityMap from '../../images/AffinityMap.png';
 const Empathize = () => (
   <div className='empathize'>
     <div id="empathize">
-      <header className='header'>02 Empathize</header>
+      <header className='header'>02 Empa&shy;thize</header>
       <p className='goal'>Goal → learn more about the users, their problems, wants, and needs, and the environment or context in which they will experience the design.</p>
       <div className='centerDiv'>
         <div className='columns'>

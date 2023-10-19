@@ -97,10 +97,13 @@
 
 
 
-/* Medium Screens (Tablets and Small Laptops): */
+/* Small/er Screens (Tablets and some Small Laptops): */
 @media (min-width: 768px) and (max-width: 991px) {
   #define section {
     max-width: 100%;
+    max-width: 60ch;
+    min-width: 60ch;
+    background-color: brown;
   }
 
   .header {
@@ -109,8 +112,31 @@
   }
 
   .columns {
-    gap: 20px;
-    background-color: green;
+    gap: var(--column-gap-reset) !important;
+  }
+
+  .carousel .dot {
+    width: 0.5rem !important;
+    height: 0.5rem !important;
+    background-color: yellow;
+  }
+
+  .carousel .control-dots {
+    position: absolute;
+    bottom: -0.75rem !important;
+  }
+
+}
+
+/* Media query for small screens (landscape) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .columns {
+    gap: var(--column-gap-reset) !important;
+  }
+
+  .carousel .control-dots {
+    position: absolute;
+    bottom: -0.625rem !important;
   }
 }
 

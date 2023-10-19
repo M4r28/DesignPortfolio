@@ -108,11 +108,12 @@
 }
 
 
-
-/* Medium Screens (Tablets and Small Laptops): */
+/* Small/er Screens (Tablets and some Small Laptops): */
 @media (min-width: 768px) and (max-width: 991px) {
   #prototypeAndTest section {
     max-width: 100%;
+    max-width: 60ch;
+    min-width: 60ch;
   }
 
   .header {
@@ -123,7 +124,29 @@
   .goal {
     margin-top: var(--goal-margin-top-m);
   }
+
+  .columnMargin {
+    margin-top: var(--column-margin-top-s) !important;
+    margin-bottom: var(--column-margin-bottom-s) !important;
+  }
+
+  .imageMarginTop {
+    margin-top: var(--image-margin-m);
+  }
+
 }
+
+/* Media query for small screens (landscape) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .columns {
+    gap: var(--column-gap-reset) !important;
+  }
+
+  .marginMediaTablet {
+    gap: var(--column-gap-m) !important;
+  }
+}
+
 
 /* Medium Devices (Larger Tablets and Small Laptops) */
 @media screen and (min-width: 993px) and (max-width: 1280px) {

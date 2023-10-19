@@ -8,7 +8,7 @@ import hobbifyFrames from '../../images/hobbifyFames.png';
 const FurtherDevelopment = () => (
   <div className='furtherDevelopment'>
     <div id="furtherDevelopment">
-      <header className='header'>06 Further<br />Development</header>
+      <header className='header'>06 Further<br />Develop&shy;ment</header>
       <p className='goal'>Goal → create an early model of a product that demonstrates its functionality and can be used for testing.</p>
       <div className='columns columnMargin'>
       <section className='section'>

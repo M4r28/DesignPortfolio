@@ -152,6 +152,8 @@
 
     #discover section {
       max-width: 100%;
+      max-width: 60ch;
+      min-width: 60ch;
     }
 
     .header {
@@ -162,9 +164,17 @@
     .columns {
       gap: var(--column-gap-s);
     }
+
+
   }
 }
 
+/* Media query for small screens (landscape) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .columns {
+    gap: var(--column-gap-reset) !important;
+  }
+}
 
 
 /* Mobile */
