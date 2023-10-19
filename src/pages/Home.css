@@ -140,7 +140,7 @@
 
 
 /* Large Screens (Desktops and Larger Laptops) */
-@media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
   .header {
     font-size: var(--header-l);
     background-color: yellow;
@@ -149,26 +149,45 @@
   .projectsArrowContainer {
     padding-left: 1rem;
   }
-}
+} */
 
-/* Medium Screens (Tablets and Small Laptops): */
+
+
+
+/* Small/er Screens (Tablets and some Small Laptops): */
 @media (min-width: 768px) and (max-width: 991px) {
-  .header {
-    font-size: var(--header-l);
-    background-color: orange;
-  }
 
-  .description {
-    font-size: var(--description-m);
-    background-color: hotpink;
-    padding: 0 var(--space-side-m);
-  }
+  .home {
+    .header {
+      font-size: var(--header-l);
+      background-color: orange;
+    }
 
-  .projectsArrowContainer {
-    padding-left: 1rem;
+    .description {
+      font-size: var(--description-m);
+      background-color: hotpink;
+      padding: 0 var(--space-side-m);
+    }
+
+    .projectsArrowContainer {
+      padding-left: 1rem;
+    }
   }
 }
 
+/* Media query for small screens (landscape) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .home {
+    .header {
+      font-size: var(--header-l);
+      background-color: orange;
+    }
+
+    .projectsArrowContainer {
+      padding-left: 1rem !important;
+    }
+  }
+}
 
 /* Mobile */
 @media (max-width: 767px) {
