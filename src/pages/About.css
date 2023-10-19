@@ -1,44 +1,147 @@
+.about {
+  .section h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+    font-size: var(--h3-l);
+    line-height: 1;
+  }
 
-  .Aabout {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: repeat(2, 1fr);
-      grid-gap: 1rem;
-      margin-left: 1.5rem;
-      margin-top: 3rem;
+  .section ul {
+    font-size: var(--description-l);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .columns {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: var(--column-gap-l);
+    margin-bottom: 4rem;
+  }
+
+  .columns section {
+    max-width: 66ch;
+    min-width: 66ch;
+  }
+
+  .description {
+    font-size: var(--description-l);
+    padding: 0;
+    margin: 0;
+  }
+
+  .linkedinIcon {
+    padding-right: 1.5rem;
+  }
+
+  .flexContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /* Align to the bottom */
+    position: fixed;
+    bottom: 0.25rem;
+    /* Stick to the bottom of the viewport */
+    right: 0;
+    /* Stick to the right of the viewport */
+  }
+
+  #about {
+    margin-top: 3rem;
+  }
+
+}
+
+/* Medium Devices (Larger Tablets and Small Laptops) */
+@media screen and (min-width: 993px) and (max-width: 1280px) {
+  .about {
+
+    .section h3 {
+      font-size: var(--h3-m) !important;
+      background-color: rgb(224, 90, 112) !important;
     }
-    
-    .Asection {
-    width: 40ch;
-    font-size: 2rem;
-    }
-    
-    .Ah1 {
-      font-size: 5rem;
+
+    .description {
       max-width: 40ch;
-      line-height: 1.1;
-    }
-    
-    .Alist {
-     font-size: 2rem;
-     list-style-type: none; /* Remove bullets */
-     padding: 0; /* Remove padding */
-     margin: 0; /* Remove margins */
-    }
-    
-    .Agrid-item {
-      grid-column: span 1;
-      grid-row: span 1;
-      place-content: start;
-      margin-top: 3rem;
     }
 
-    .AlinkedinIcon {
-     /* float: right; */
-     padding-right: 1.5rem;
+    .columns {
+      gap: var(--column-gap-s);
     }
 
-    .Aflex-container {
-      display: flex;
-      justify-content: flex-end;
+  }
+}
+
+
+/* Small/er Screens (Tablets and some Small Laptops): */
+@media (min-width: 768px) and (max-width: 991px) {
+  .about {
+
+    .description {
+      font-size: var(--description-m);
+      background-color: hotpink;
+      max-width: 40ch;
     }
+
+    .columns {
+      gap: var(--column-gap-s) !important;
+    }
+
+  }
+}
+
+/* Media query for small screens (landscape) */
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .about {
+    .columns {
+      gap: var(--column-gap-s) !important;
+    }
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+
+  .about {
+    .section h3 {
+      font-size: var(--h3-s) !important;
+      background-color: pink !important;
+      margin-left: 0.75rem !important;
+      margin-right: 0.75rem !important;
+    }
+
+    .section ul {
+      font-size: var(--description-s);
+      margin-left: 0.75rem;
+      margin-right: 0.75rem;
+    }
+
+    .description {
+      font-size: var(--description-s);
+      max-width: 100%;
+      margin-left: 0.75rem;
+      margin-right: 0.75rem;
+      background-color: cyan;
+    }
+
+    #about section {
+      max-width: 100%;
+      min-width: 0ch;
+    }
+
+    .columns {
+      gap: var(--column-gap-s);
+      justify-content: start;
+    }
+
+    .linkedinIcon {
+      padding-right: 0.75rem;
+    }
+
+  }
+}
