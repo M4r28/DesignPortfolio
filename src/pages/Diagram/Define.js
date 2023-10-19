@@ -12,58 +12,56 @@ import './Define.css';
 
 const Define = () => (
   <div className='define'>
-  <div id="define">
-    <header className='header'>03 Define</header>
-    <p className='goal'>Goal → clear Problem Statement. Analyze research findings and determine which user problems are the most important to solve and why.</p>
-    <div className='columns'>
-    <section className='section'>
-      <h3>User Personas</h3>
-    </section> 
-    <section className='section'>
-    <p>Developing personas enables designers to empathize effectively, comprehending objectives, requirements, pain points, and motivations. Stepping into the persona's perspective empowered me to make decisions more aligned with their needs and goals.</p>
-    </section> 
+    <div id="define">
+      <header className='header'>03 Define</header>
+      <p className='goal'>Goal → clear Problem Statement. Analyze research findings and determine which user problems are the most important to solve and why.</p>
+      <div className='columns'>
+        <section className='section'>
+          <h3>User Personas</h3>
+        </section>
+        <section className='section'>
+          <p>Developing personas enables designers to empathize effectively, comprehending objectives, requirements, pain points, and motivations. Stepping into the persona's perspective empowered me to make decisions more aligned with their needs and goals.</p>
+        </section>
+      </div>
+      <Carousel showArrows={true} showStatus={false} showThumbs={false} className='carousel imageBottomMargin imageTopMargin' swipeable={true}>
+        <div className='indicators'>
+          <img src={svgPeronaPhillip} alt="User Persona Phillip" />
+          {/* <p className="legend">Slide 1 Caption</p> */}
+        </div>
+        <div>
+          <img src={svgPersonaMin} alt="User Persona Min" />
+          {/* <p className="legend">Slide 2 Caption</p> */}
+        </div>
+        <div>
+          <img src={svgPersonaOutlierChrissy} alt="Outlier User Persona Chrissy" />
+          {/* <p className="legend">Slide 3 Caption</p> */}
+        </div>
+      </Carousel>
+      <div className='columns columnMarginTop'>
+        <section className='section'>
+          <h3>User Journey Maps</h3>
+        </section>
+        <section className='section'>
+          <p>Employing User Journey Maps illuminates the end-to-end user experience, providing insights into touch points and emotions throughout their interaction with a product or service. This aids in identifying pain points and opportunities for optimization, resulting in more empathetic and effective design solutions.</p>
+        </section>
+      </div>
+      <Carousel showArrows={true} showStatus={false} showThumbs={false} swipeable={true} className='carousel imageTopMargin'>
+        <div>
+          <img src={userScenarioPhillip} alt="User Scenario Phillip" />
+        </div>
+        <div>
+          <img src={userJourneyPhillip} alt="User Journey Phillip" />
+        </div>
+      </Carousel>
+      <Carousel showArrows={false} showStatus={false} showThumbs={false} swipeable={true} className='carousel imageTopMargin'>
+        <div>
+          <img src={userScenarioMin} alt="User Scenario Min" />
+        </div>
+        <div>
+          <img src={userJourneyMin} alt="User Journey Min" />
+        </div>
+      </Carousel>
     </div>
-
-    <Carousel showArrows={true} showStatus={false} showThumbs={false} className='carousel imageBottomMargin imageTopMargin' swipeable={true}>
-      <div className='indicators'>
-        <img src={svgPeronaPhillip} alt="User Persona Phillip" />
-        {/* <p className="legend">Slide 1 Caption</p> */}
-      </div>
-      <div>
-        <img src={svgPersonaMin} alt="User Persona Min" />
-        {/* <p className="legend">Slide 2 Caption</p> */}
-      </div>
-      <div>
-        <img src={svgPersonaOutlierChrissy} alt="Outlier User Persona Chrissy" />
-        {/* <p className="legend">Slide 3 Caption</p> */}
-      </div>
-    </Carousel>
-
-    <div className='columns columnMarginTop'>
-    <section className='section'>
-      <h3>User Journey Maps</h3>
-    </section>
-    <section className='section'>
-      <p>Employing User Journey Maps illuminates the end-to-end user experience, providing insights into touch points and emotions throughout their interaction with a product or service. This aids in identifying pain points and opportunities for optimization, resulting in more empathetic and effective design solutions.</p>
-    </section>
-    </div>
-    <Carousel showArrows={true} showStatus={false} showThumbs={false} swipeable={true} className='carousel imageTopMargin'>
-      <div>
-        <img src={userScenarioPhillip} alt="User Scenario Phillip" />
-      </div>
-      <div>
-        <img src={userJourneyPhillip} alt="User Journey Phillip" />
-      </div>
-    </Carousel>
-    <Carousel showArrows={false} showStatus={false} showThumbs={false} swipeable={true} className='carousel imageTopMargin'>
-      <div>
-        <img src={userScenarioMin} alt="User Scenario Min" />
-      </div>
-      <div>
-        <img src={userJourneyMin} alt="User Journey Min" />
-      </div>
-    </Carousel>
-  </div>
   </div>
 );
 

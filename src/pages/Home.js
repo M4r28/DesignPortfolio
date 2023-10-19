@@ -1,13 +1,9 @@
 import React from 'react';
-import "./Home.css"
-import { ReactComponent as Icon } from '../icons/arrow.svg'
+import "./Home.css";
+import { ReactComponent as Icon } from '../icons/arrow.svg';
 import { Link } from 'react-router-dom';
-import image from '../images/mockupHobbify.png'
-import MobileFrame from "./MobileFrame";
-import upliftHome from '../images/UpliftHomeForMockupTry.jpg';
-import ZoomableImage from "./Diagram/ZoomableImage";
+import hobbifyHomeFrames from '../images/335shots_so.png';
 import MacBookFrame from "./MacBookFrame";
-import upliftFirstFrame from '../images/914shots_so.png';
 
 const Home = () => {
   const [scrollTop, setScrollTop] = React.useState(0);
@@ -30,19 +26,16 @@ const Home = () => {
         </div>
       </section>
       <section className="sectionHobbify">
-        <img className="hobbifyMockup" src={image} width="auto" height="auto" alt="Hobbify" />
+        <img className="hobbifyMockup" src={hobbifyHomeFrames} width="100%" height="auto" alt="Hobbify Mockup" />
         <div className=''>
         <Link className='link'to="/hobbify">
           <span className="description semiBold">Hobbify -></span>
         </Link>
         <p className="description">A Mobile App for Creative Connections, Expert Guidance, and Community Building. Creativity unleashed and creations amplified!</p>
-        {/* <div className="temporaryPadding" />
-        <div className="temporaryPadding" /> */}
         </div>
       </section>
       <section className="sectionUplift">
         <MacBookFrame />
-       
         <div className=''>
         <p className="description"><span className='semiBold'>Uplift</span><span className='comingSoon'>Details coming soon</span><br/>A groundbreaking video calling application that seamlessly blends <br/>cutting-edge technology with innovative features designed to foster inclusivity, diversity, and meaningful connections.</p>
         </div>

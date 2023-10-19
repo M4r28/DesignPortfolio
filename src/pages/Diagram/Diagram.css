@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* background-color: hotpink; */
   margin-left: 5vw;
   margin-right: 5vw;
 
@@ -29,7 +28,7 @@
   .label {
     font-size: 1.5rem;
     position: relative;
-    top: -1.5rem;
+    top: -1.25rem;
     left: 1.5rem;
 
   }

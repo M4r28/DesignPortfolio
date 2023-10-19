@@ -7,7 +7,6 @@ import usabilityTestAnalysis from '../../images/usabilityTestAnalysis.png';
 import ZoomableImage from './ZoomableImage';
 
 
-
 const PrototypeAndTest = () => (
   <div className='prototypeAndTest'>
     <div id="prototypeAndTest">

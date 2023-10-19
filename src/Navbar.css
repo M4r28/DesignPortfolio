@@ -5,8 +5,6 @@
   align-items: stretch;
   gap: 2rem;
   padding: 0 1.5rem;
-
-
 }
 
 .nav ul {
@@ -26,13 +24,10 @@
   padding: .5rem;
 }
 
-.nav li.active {
-
+/* .nav li.active {
   font-family: 'Manrope-SemiBold';
-}
-
+} */
 
 .nav li:hover {
-
   font-family: 'Manrope-Regular';
 }

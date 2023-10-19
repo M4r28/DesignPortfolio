@@ -5,9 +5,8 @@
   border: none;
   display: flex;
   align-self: center;
-
   width: 100vw;
-  background-color: rgb(254, 238, 134);
+  /* background-color: rgb(254, 238, 134); */
 }
 
 .mockup {

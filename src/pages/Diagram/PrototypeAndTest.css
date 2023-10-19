@@ -9,7 +9,6 @@
     font-weight: normal;
     margin-left: 1rem;
     margin-right: 1rem;
-
   }
 
   .goal {
@@ -20,23 +19,17 @@
     padding: 0;
     font-size: 1rem;
     margin-bottom: 6rem;
-
-
   }
-
 
   #prototypeAndTest h3 {
     padding: 0;
     margin: 0;
     font-weight: normal;
-    /* background-color: blue; */
   }
 
   .columns {
-    /* background-color: aliceblue; */
     display: flex;
     flex-direction: row;
-    /* align-items: start; */
     justify-content: center;
     flex-wrap: wrap;
     gap: var(--column-gap-l);
@@ -51,9 +44,6 @@
   .section p {
     font-size: var(--body-l);
     word-break: keep-all;
-
-
-    /* background-color: brown; */
   }
 
   .section h3 {
@@ -67,7 +57,6 @@
       text-decoration: underline;
     }
 
-    /* background-color: #C0C6CA; */
   }
 
   .column2 h3 {
@@ -97,14 +86,10 @@
 }
 
 
-
 .list {
   font-size: var(--body-l);
   list-style-position: outside;
   list-style-type: decimal-leading-zero;
-
-  /* background-color: brown; */
-
 }
 
 
@@ -118,7 +103,6 @@
 
   .header {
     font-size: 3rem;
-    background-color: coral;
   }
 
   .goal {
@@ -159,7 +143,6 @@
 
     .header {
       font-size: var(--h2-m) !important;
-      background-color: rgb(55, 90, 137);
     }
 
     .columns {
@@ -168,21 +151,18 @@
 
     .section h3 {
       font-size: var(--h3-m) !important;
-      background-color: rgb(224, 90, 112) !important;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
     }
 
     .section p {
       font-size: var(--body-m);
-      background-color: yellow;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
     }
 
     .section ol {
       font-size: var(--body-m);
-      background-color: yellow;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
     }
@@ -195,7 +175,6 @@
     .goal {
       margin-top: var(--goal-margin-top-m);
       font-size: var(--goal-font-m);
-      background-color: aquamarine !important;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
       margin-bottom: var(--goal-margin-bottom-m);
@@ -221,35 +200,30 @@
 
     .header {
       font-size: 4rem !important;
-      background-color: rgb(103, 79, 187);
       margin-left: 0.25rem !important;
       margin-right: 0.25rem !important;
     }
 
     .section h3 {
       font-size: 2.5rem !important;
-      background-color: pink !important;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
     }
 
     .section p {
       font-size: var(--body-s);
-      background-color: yellow;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
     }
 
     .section ol {
       font-size: var(--body-s);
-      background-color: yellow;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
     }
 
     .goal {
       font-size: 0.75rem !important;
-      background-color: aquamarine !important;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
       margin-bottom: 3rem;

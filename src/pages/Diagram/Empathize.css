@@ -18,7 +18,6 @@
     padding: 0;
     font-size: 1rem;
     margin-bottom: 6rem;
-
   }
 
   .section h3 {
@@ -27,7 +26,6 @@
     font-weight: normal;
     font-size: var(--h3-l);
     line-height: 1;
-    /* background-color: blue; */
   }
 
   .column1 h3 {
@@ -35,7 +33,6 @@
   }
 
   .columns {
-
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -43,7 +40,6 @@
     flex-wrap: wrap;
     gap: var(--column-gap-l);
     margin-bottom: 4rem;
-
   }
 
   .space {
@@ -57,8 +53,6 @@
 
   .section p {
     font-size: var(--body-l);
-
-    /* background-color: brown; */
   }
 
   .section a {
@@ -67,17 +61,14 @@
 
   .section a:hover {
     color: var(--accent-color);
-
   }
 
   .section a:visited {
-    /* opacity: 0.5; */
     color: var(--accent-color-dark);
   }
 
   .section a:hover {
     color: var(--accent-color);
-
   }
 
 
@@ -85,9 +76,6 @@
     font-size: var(--body-l);
     list-style-position: outside;
     list-style-type: decimal-leading-zero;
-
-    /* background-color: brown; */
-
   }
 
   .section h5 {
@@ -113,8 +101,6 @@
 
 
 
-
-
 /* Small/er Screens (Tablets and some Small Laptops): */
 @media (min-width: 768px) and (max-width: 991px) {
   #empathize section {
@@ -125,7 +111,6 @@
 
   .header {
     font-size: 3rem;
-    background-color: coral;
   }
 
   .goal {
@@ -157,7 +142,6 @@
 
     .header {
       font-size: var(--h2-m) !important;
-      background-color: rgb(55, 90, 137);
     }
 
     .columns {
@@ -166,21 +150,18 @@
 
     .section h3 {
       font-size: var(--h3-m) !important;
-      background-color: rgb(224, 90, 112) !important;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
     }
 
     .section p {
       font-size: var(--body-m);
-      background-color: yellow;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
     }
 
     .section ol {
       font-size: var(--body-m);
-      background-color: yellow;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
     }
@@ -193,7 +174,6 @@
     .goal {
       margin-top: var(--goal-margin-top-m);
       font-size: var(--goal-font-m);
-      background-color: aquamarine !important;
       margin-left: var(--space-side-m) !important;
       margin-right: var(--space-side-m) !important;
       margin-bottom: var(--goal-margin-bottom-m);
@@ -213,35 +193,30 @@
 
     .header {
       font-size: 4rem !important;
-      background-color: rgb(103, 79, 187);
       margin-left: 0.25rem !important;
       margin-right: 0.25rem !important;
     }
 
     .section h3 {
       font-size: 2.5rem !important;
-      background-color: pink !important;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
     }
 
     .section p {
       font-size: var(--body-s);
-      background-color: yellow;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
     }
 
     .section ol {
       font-size: var(--body-s);
-      background-color: yellow;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
     }
 
     .goal {
       font-size: 0.75rem !important;
-      background-color: aquamarine !important;
       margin-left: 0.5rem !important;
       margin-right: 0.5rem !important;
       margin-bottom: 3rem;

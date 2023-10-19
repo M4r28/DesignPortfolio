@@ -1,5 +1,4 @@
 import React from 'react';
-// import imageUserPersonaOutlier from '../../images/userPersonaOutlier.jpg';
 import userStoryPhillip from '../../images/userStoryPhillip.svg';
 import userFlowPhillip1 from '../../images/userFlowPhillip1.png';
 import userFlowPhillip2 from '../../images/userFlowPhillip2.png';
@@ -56,7 +55,7 @@ const Ideate = () => (
         </section>
       </div>
       <div>
-      <ZoomableImage src={sitemap} />
+        <ZoomableImage src={sitemap} />
       </div>
     </div>
   </div>

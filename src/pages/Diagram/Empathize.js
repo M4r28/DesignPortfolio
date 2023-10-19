@@ -27,14 +27,13 @@ const Empathize = () => (
               <h5>Main Findings</h5>Users express the importance of creative hobbies in their life. Being invested in their projects they would gladly indulge in the idea of having access to expert advice. However, a big emphasis is put on proper and timely scheduling, responsiveness, reliability, and pricing.</p>
             <div className='space' />
             <h3>User <br /> Interviews</h3>
-            <p>Building upon survey findings, I conducted one-hour interviews with three participants. These interviews provided valuable insights into their wants, needs, and behaviors related to the app's value proposition.<br/> Following the user interviews, I delved into <span className='semiBold'>insights synthesis</span>. Through a thorough analysis of the raw data, I categorized the insights into emerging themes that captured the primary priorities of users.</p>
+            <p>Building upon survey findings, I conducted one-hour interviews with three participants. These interviews provided valuable insights into their wants, needs, and behaviors related to the app's value proposition.<br /> Following the user interviews, I delved into <span className='semiBold'>insights synthesis</span>. Through a thorough analysis of the raw data, I categorized the insights into emerging themes that captured the primary priorities of users.</p>
           </section>
         </div>
       </div>
       <div className='imageContainer'>
         <img className="imageBottomMargin" src={imageUserInterviews} width="100%" height="auto" alt="User Interviews results organized in groups: Behaviors and Attitudes, Needs and Goals, and Frustrations, and Significant Quotes" />
       </div>
-  
       <div className='imageContainer'>
         <img className='' src={imageAffinityMap} width='100%' height='auto' alt='Insights Synthesis organized in three groups: Accessibility, Trust and Expertise, Convenience' />
       </div>

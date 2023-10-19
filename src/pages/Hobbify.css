@@ -4,7 +4,6 @@
     font-size: var(--description-l);
     max-width: 70%;
     margin-left: var(--space-side-l);
-    /* background-color: aquamarine; */
   }
 
   .projectSpecs {
@@ -61,7 +60,6 @@
   .hobbify {
     .sectionTop {
       font-size: var(--description-m);
-      background-color: hotpink;
       margin: 1rem 1rem;
     }
 
@@ -71,15 +69,9 @@
 
     .sectionTop {
       font-size: var(--description-m);
-      background-color: hotpink;
       margin-left: (--space-side-m);
       padding: 0;
     }
-
-    /* .projectSpecs div:nth-child(2) {
-      margin-left: 1rem;
-      margin-right: 1rem;
-    } */
 
     .projectSpecs {
       display: flex;
@@ -121,7 +113,6 @@
       font-size: var(--description-s);
       max-width: 100% !important;
       margin-left: var(--space-side-s);
-      background-color: blanchedalmond;
     }
 
     .sectionAndSpecs {

@@ -1,7 +1,6 @@
 .zoomableImage {
   max-width: 80vw;
   margin: 0 auto;
-  background-color: pink;
 }
 
 .zoomable-image-container {
@@ -24,20 +23,6 @@
 
 
 }
-
-/* .image-wrapper {
-  width: 100%;
-  height: auto;
-
-  position: relative;
-  cursor: grabbing;
-
-}
-
-.image-wrapper:active {
-  cursor: grabbing;
-  
-} */
 
 .zoom-controls {
   display: flex;
