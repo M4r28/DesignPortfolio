@@ -14,7 +14,7 @@ export default function Navbar() {
         {/* <CustomLink to="javascript:void(0)" target="_blank" rel="noopener noreferrer" onClick={() => window.location = 'mailto:marta.marta.k@gmail.com'}>
         Contact
         </CustomLink> */}
-        <a href="mailto:martakk.design@gmail.com?subject=Fresh from martakolodziejczak.com&body=Hi," target="_blank" rel="noopener noreferrer">Contact</a>
+        <a href="mailto:martakk.design@gmail.com?subject=Fresh from martakkdesign.com&body=Hi," target="_blank" rel="noopener noreferrer">Contact</a>
       </ul>
     </nav>
   )
