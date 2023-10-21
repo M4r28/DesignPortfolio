@@ -1,4 +1,4 @@
-import Diagram from "./Diagram/Diagram";
+import Diagram from "./Diagram/Diagram"
 import "./Hobbify.css";
 import h3l from '../images/h3l.png';
 import h3r from '../images/h3r.png';
